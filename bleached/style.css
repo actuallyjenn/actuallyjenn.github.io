@@ -233,10 +233,6 @@ a, a:link, a:visited {
   transition: all .3s ease;
 }
 
-a:hover, a:active, a:focus {
-  border-bottom-color: #79C5BE;
-}
-
 /* ==========================================================================
    =TYPOGRAPHY
    ========================================================================== */
@@ -278,7 +274,10 @@ p {
   font-family:"Helvetica Neue", sans-serif;
   margin:0;
   margin-top:20px;
+}
 
+.link a:hover, a:active, a:focus {
+  border-bottom-color: #79C5BE;
 }
 
 h2 {
@@ -546,6 +545,15 @@ h5, h6 {
   .show-on-s {
     display: block;
     visibility: visible;
+  }
+}
+
+@media (max-width: 730px) {
+  .doc-info {
+    display:none;
+
+    /*float:right;
+    padding-bottom:20px;*/
   }
 }
 /* ==========================================================================
