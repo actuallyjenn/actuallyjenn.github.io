@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'Handwriting - Dakota';
+  font-style: normal;
+  font-weight: 400;
+  src: url('Handwriting - Dakota.woff') format('woff');
+}
+
+html, body{
+	margin:0px; 
+	padding:0px;
+	color:#000000;
+	font-size:14px;
+	font-family: 'Helvetica', sans-serif;
+}
+
+body {
+	background: url('./img/background_image.png') center center no-repeat fixed;
+	-webkit-background-size: cover;
+}
+
+.content-block{
+	max-width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*button {
+	padding:15px;
+	border:#8c8b8c;
+	border-width:1px;
+	border-style:solid;
+	background:#73d8e1;
+	font-size:18px;
+	margin:20px;
+	cursor:pointer;
+	-webkit-border-radius:10px;
+}*/
+
+button {
+	border:2px solid #8C8B8C; 
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px;
+	border-radius: 10px; 
+	font-size:12px;
+	font-family:helvetica, sans-serif; 
+	padding: 13px 13px 13px 13px; 
+	text-decoration:none; 
+	display:inline-block; 
+	color: #000000;
+	background-color: #73D8E1; 
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#73D8E1), to(#48868C));
+	background-image: -webkit-linear-gradient(top, #73D8E1, #48868C);
+	background-image: -moz-linear-gradient(top, #73D8E1, #48868C);
+	background-image: -ms-linear-gradient(top, #73D8E1, #48868C);
+	background-image: -o-linear-gradient(top, #73D8E1, #48868C);
+	background-image: linear-gradient(to bottom, #73D8E1, #48868C);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#73D8E1, endColorstr=#48868C);
+}
+
+button:hover{
+	border:2px solid #8C8B8C;
+	background-color: #49ccd8; 
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#49ccd8), to(#37666a));
+	background-image: -webkit-linear-gradient(top, #49ccd8, #37666a);
+	background-image: -moz-linear-gradient(top, #49ccd8, #37666a);
+	background-image: -ms-linear-gradient(top, #49ccd8, #37666a);
+	background-image: -o-linear-gradient(top, #49ccd8, #37666a);
+	background-image: linear-gradient(to bottom, #49ccd8, #37666a);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#49ccd8, endColorstr=#37666a);
+}
+
+header {
+	background:rgba(0,0,0,0.2);
+	width:100%;
+	height:117px;
+	display:block;
+}
+
+header img {
+	display: block;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#img-intro {
+	position: absolute;
+	margin-left:33%;
+	margin-top:-250px;
+}
+
+#img-intro h1 {
+	font-family:'Handwriting - Dakota';
+	font-size:96.21px;
+	font-weight:200;
+	color: #73d8e1;
+	text-shadow: 2px 2px 0 rgba(0,0,0,0.5);
+	margin-bottom: -100px;
+	position:relative;
+	z-index:3;
+	-webkit-transform:rotate(-5deg);
+}
+
+#img-intro img{
+	position:absolute;
+	z-index:2;
+}
+
+.black-part {
+	background-image:url('./img/splashes_background.png');
+	-webkit-background-size: cover;
+	background-color:rgba(0,0,0,0.2);
+	background-position:-10px;
+	width:100%;
+	height:300px;
+	display:block;
+	padding-top:120px;
+	margin-top:150px;
+	position:relative;
+	z-index:1;
+}
+
+
+#intro {
+	background:rgba(255,255,255,0.6);
+	padding:10px;
+	width:313.2px;
+	height:150px;
+	display:block;
+	border-radius:10px;
+	margin-left:50%;
+}
+
+#intro h1 {
+	text-transform: uppercase;
+	font-size:25.02px;
+	margin:0px;
+	font-weight:400;
+}
+
+#intro h2 {
+	text-transform: uppercase;
+	font-size:15.25px;
+	margin:0px;
+	font-weight:400;
+}
+
+#intro-btn {
+	text-transform: uppercase;
+	font-size:15.25px;
+	font-family:Helvetica;
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+
+}
+
+footer {
+	margin-top:40px;
+	margin-bottom:40px;
+	position:relative;
+}
+
+#desc h1 {
+	color: #73d8e1;
+	font-size: 24px;
+	font-weight:400;
+}
+
+#desc p {
+	margin-left:2%;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+@media (max-width:1120px) {
+	#img-intro {
+		margin-left:10%;
+	}
+
+	#intro {
+	margin-left:50%;
+	}
+
+	#desc {
+		margin-left:20px;
+		margin-right:20px;
+	}
+}
+
+@media (max-width:705px) {
+	#img-intro {
+		margin-top:-170px;
+
+	}
+
+	#img-intro h1 {
+		font-size:4em;
+		text-align:center;
+	}
+
+	#img-intro img{
+		margin-top:50px;
+		max-width: 100%;
+	}
+
+	#intro {
+		margin-right:auto;
+		margin-left:auto;
+		display:block;
+	}
+
+}
