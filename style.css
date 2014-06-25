@@ -149,6 +149,73 @@ a:hover {
 	text-align:justify;
 }
 
+.portfolio {
+	width: 1000px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+}
+
+.clients {
+	display:block;
+	margin-left:40px;
+	float: left;
+	margin-bottom:20px;
+}
+
+.clients img {
+	width:200px;
+}
+
+.centup {
+	background-color:#000000;
+	width:200px;
+	height:200px;
+	margin:15px;
+	float: left;
+}
+
+.pba {
+	background-color:#000000;
+	width:200px;
+	height:200px;
+	margin:15px;
+	float: left;
+}
+
+.past {
+	background-color:#000000;
+	width:200px;
+	height:200px;
+	margin:15px;
+	float: left;
+}
+
+.more {
+	background-color:#000000;
+	width:200px;
+	height:200px;
+	margin:15px;
+	float: left;
+}
+
+.centup img:hover {
+	opacity:0.7;
+}
+
+.pba img:hover { 
+	opacity: 0.7; 
+}
+
+.past img:hover { 
+	opacity: 0.7; 
+}
+
+.more img:hover { 
+	opacity: 0.7; 
+}
+
 footer {
 	border-top: 1px #ccc solid;
 	padding-top: 10px;
