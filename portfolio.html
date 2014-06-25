@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="./font-awesome-4.1.0/css/font-awesome.css">
+
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<link rel="shortcut icon" href="./img/logo2.png" type="image/x-icon">
+		<link rel="icon" href="./img/logo2.png" type="image/x-icon">
+
+        <title>Jennifer Noinaj - Portfolio</title>
+	</head>
+	<body>
+		<header>
+			<section class="navigation">
+				<div class="top-nav">
+				<div class="logo">
+					<a href="index.html"><h1>JENNIFER NOINAJ</h1></a>
+					<h2>Design + Development</h2>
+				</div>
+				<div class="links">
+					<a href="portfolio.html">PORTFOLIO</a>
+					<a href="http://actuallyjenn.github.io/resume.pdf" target="_blank">RESUME</a>
+					<a href="about.html">ABOUT</a>
+				</div>
+			</section>
+		</header>
+		<section class="intro">
+			<!--<img src="./img/about.jpg"></img>-->
+		</section>
+		<section class="about">
+			<p>This page is still under construction.</p>
+			<!--<p>This is Jenn's rough website sans css styling.</p>
+			<p>I have all of my web projects hosted here.</p>
+			<ul>
+				<li><a href="./RWD/index.html">Responsive Web Design</a></li>
+				<li><a href="./bleached/index.html">Bleached Band Page</a></li>
+				<li><a href="./APC/index.html">Tentative Austin Pup Culture Redesign</a></li>
+			</ul>-->
+		</section>
+		<footer>
+			<p>&copy; JENNIFER NOINAJ 2014</p>
+			<a href="http://github.com/actuallyjenn" target="_blank"><i class="fa fa-github-alt fa-lg"></i></a>
+			<a href="http://instagram.com/actuallyjenn" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
+			<a href="http://www.facebook.com/actuallyjenn" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+			<a href="http://www.linkedin.com/in/actuallyjenn/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
+			<a href="mailto:jenndoesdesign@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-lg"></i></a>
+		</footer>
+
+		<script>
+			$(function() {
+				$('a[href*=#]:not([href=#])').click(function() {
+					if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+					&& location.hostname == this.hostname) {
+						var target = $(this.hash);
+						target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+						if (target.length) {
+							$('html,body').animate({
+								scrollTop: target.offset().top
+							}, 1000);
+							return false;
+						}
+					}
+				});
+			});
+		</script>
+	</body>
+</html>
