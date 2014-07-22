@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 
 body {
   padding:50px;
@@ -16,12 +17,9 @@ p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
-h1, h2, h3 {
-  line-height:1.1;
-}
-
 h1 {
-  font-size:28px;
+  font-family: 'Montserrat', sans-serif;
+  font-size:26px;
 }
 
 h2 {
@@ -33,9 +31,14 @@ h3, h4, h5, h6 {
 }
 
 a {
+  text-decoration: none;
   color:#39c;
   font-weight:400;
-  text-decoration:none;
+}
+
+a:hover {
+  outline: thin;
+  color:#000000; 
 }
 
 a small {
@@ -138,6 +141,20 @@ header ul a {
   height:40px;
 }
 
+header h1 {
+  margin: 0px;
+}
+
+header img {
+  width: 30%;
+  margin: 20px;
+}
+
+header a {
+  margin-top:20px;
+  margin-right: 20px;
+}
+
 strong {
   color:#222;
   font-weight:700;
@@ -163,6 +180,10 @@ section {
   width:500px;
   float:right;
   padding-bottom:50px;
+}
+
+section p {
+  text-align: justify;
 }
 
 small {
